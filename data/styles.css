@@ -3,9 +3,12 @@
   font-weight:400;
   font-style:normal;
   font-size:13px;
+  letter-spacing:normal;
   color:#333333;
+  vertical-align:none;
   text-align:center;
   line-height:normal;
+  text-transform:none;
 }
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
@@ -51,6 +54,11 @@
 ._文本段落 {
   text-align:left;
 }
+.form_hint {
+  color:#999999;
+}
+.form_disabled {
+}
 ._流程形状 {
 }
 ._图片 {
@@ -88,3 +96,4 @@
   color:#000000;
   text-align:left;
 }
+textarea, select, input, button { outline: none; }
